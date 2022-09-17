@@ -2006,6 +2006,8 @@ function defineCurve(name, options) {
   });
 }
 
+module.exports = defineCurve;
+
 defineCurve('p192', {
   type: 'short',
   prime: 'p192',
