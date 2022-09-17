@@ -2006,7 +2006,7 @@ function defineCurve(name, options) {
   });
 }
 
-module.exports = defineCurve;
+exports.defineCurve = defineCurve;
 
 defineCurve('p192', {
   type: 'short',
